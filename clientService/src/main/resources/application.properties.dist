@@ -1,0 +1,31 @@
+exchange.url1 = "http://exchange.matraining.com/"
+exchange.url2 = "http://exchange2.matraining.com/"
+exchange.apiKey = "db6f5360-c667-451b-8e56-cb5f67c56115"
+server.port=8080
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/jamesbond
+spring.datasource.username=postgres
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/jwt_security
+#    username: postgres
+#    password: popopopf
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        format_sql: true
+#
+#server:
+#  error:
+#    include-message: always
